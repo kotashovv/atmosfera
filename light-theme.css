@@ -1,0 +1,276 @@
+body {
+    background-color: #fafafa;
+    color: #2A4C4A;
+}
+
+.header__title svg{
+    fill: #2A4C4A;
+}
+
+.header__nav ul li a {
+    color: #212121;
+}
+
+.header__action {
+    color: #212121;
+}
+
+.header__action a svg {
+    fill: #212121;
+}
+
+.welcome__body {
+    color: #212121;
+}
+
+.welcome__item::after {
+    background-color: #2A4C4A;
+}
+.welcome__item p{ 
+    color: #212121;
+}
+
+.about__body {
+    color: #2A4C4A;
+}
+.about__text p {
+    color: #2A4C4A;
+}
+
+.main-link {
+    color: #2A4C4A;
+    border-color: #2A4C4A;
+}
+.main-link:hover {
+    color: #000;
+    border-color: #000;
+}
+
+.slide-price {
+    color: #2A4C4A;
+    background-color: #f4f4f4;
+}
+.main-slide__title h2 {
+    color: #2A4C4A;
+}
+
+.project-item__text {
+    color: #2A4C4A;
+}
+
+.breaker__text {
+    color: #2A4C4A;
+}
+
+.breaker__text::before {
+    background-color: #2A4C4A;
+}
+
+.news__title h4 {
+    color: #2A4C4A;
+}
+
+.news__action a{
+    color: #2A4C4A;
+}
+
+.news-item__date, .news-item__text h4, .news-item__text p {
+    color: #2A4C4A;
+}
+
+.footer__title svg {
+    fill: #2A4C4A;
+}
+
+.footer__menu ul li a {
+    color: #2A4C4A;
+}
+
+.footer-row:last-child {
+    background-color: #2A4C4A;
+    color: #f4f4f4;   
+}
+.personal {
+    color: #2A4C4A;
+}
+.gold__text {
+    color: #2A4C4A;
+}
+
+.gold__text .yellow-text {
+    color: #2A4C4A;
+}
+.gold__text .yellow-text::after {
+    background-color: #2A4C4A;
+}
+.projects__title h2 {
+    color: #2A4C4A;
+}
+
+.project-filter::before {
+    background-color: #e2e2e2;
+}
+.project-filter__form {
+    background-color: #e2e2e2;
+}
+.irs--flat .irs-bar {
+    background-color: #2A4C4A;
+}
+.irs--flat .irs-handle {
+    background-color: #2A4C4A;
+}
+
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    color: #2A4C4A;
+}
+
+.project-filter__check-list li input[type='checkbox'] + label::before {
+    background-color: #2A4C4A;
+}
+.projects::before {
+    background-color: #f4f4f4;
+}
+
+.project-item__title {
+    color: #2A4C4A;
+}
+.project__title {
+    color: #2A4C4A;
+}
+.project__intro::before {
+    background-color: #f4f4f4;
+}
+.project-info__title, .project-info__item p,.project-location__title, .project-location__paragraph p, .project-location__paragraph span, .project-document__item a{
+    color: #2A4C4A;
+}
+.project-info__item ul li {
+    color: #212121;
+}
+
+.project-document__item {
+    background-color: #e2e2e2;
+}
+
+
+.project-contact__title, .project-contact__name span {
+    color: #2A4C4A;
+}
+.project-contact__list li a{
+    color: #2A4C4A;
+}
+.project-contact__list li, .news-page__title h2,.news-page__item-text span,.news-page__item-text p,.news-page__item-text a,.news-page__item-text h5 {
+    color: #2A4C4A;
+}
+.project-contact__list li svg {
+    fill: #2A4C4A;
+}
+
+.current-news__title, .current-news__text {
+    color: #2A4C4A;
+}
+
+.contacts-page__title h2,.contacts-page__action,.contacts-page__text .contacts-page__info p {
+    color: #2A4C4A;
+}
+.contacts-page__text .contacts-page__info span {
+    color: #212121;
+}
+
+.contacts-page__action svg {
+    fill: #2A4C4A;
+}
+.current-news__aciton a,.current-news__aciton a.not-active {
+    color: #2A4C4A;
+}
+.green {
+    fill: #2A4C4A;
+}
+
+@media(max-width:1023px) {
+    .welcome__title h1, .welcome__title h2 {
+        color: #2A4C4A;
+    }
+}
+
+
+.popup__aplication {
+    background-color: #fff;
+    color: #2c2c2c;
+  }
+  
+  .popup__aplication svg {
+    fill: #2c2c2c;
+  }
+  
+  .popup__aplication form input, .popup__register form input {
+    background-color: #ececec;
+  }
+  
+  .popup__aplication form .main-link {
+    border-color: #2A4C4A;
+    color: #2A4C4A;
+  }
+  
+  .popup__aplication form a {
+    color: #2A4C4A;
+  }
+  
+  .popup__login {
+      background-color: #fff;
+      color: #000;
+  }
+
+  .popup-login__title p {
+      background-color: #fff;
+  }
+
+  .popup__login form input {
+      background-color: #ececec;
+  }
+  
+  .popup__register {
+      background-color: #fff;
+      color: #000;
+  }
+
+  .popup-register__title p {
+      background-color: #fff;
+  }
+
+  .popup-login__title::before,.popup-register__title::before {
+      background-color: #2c2c2c;
+  }
+  
+  .popup-close-btn svg {
+      fill: #2c2c2c;
+  }
+
+  .header__action:hover {
+      color: #000;
+  }
+
+  .header__action:hover svg, .popup-slide__title svg {
+      fill: #2c2c2c;
+  }
+  
+
+  .popup__slider {
+      background-color: #fff;
+  }
+  .popup-slide__title p {
+      color: #2A4C4A;
+  }
+  .popup-slide__description p,.header__mobile-menu ul a {
+      color: #000;
+  }
+  .popup-slide__description {
+      border-color: #2A4C4A;
+  }
+
+  .header__mobile-menu {
+      background-color: #fafafa;
+  }
+
+  .burger-button::before,.burger-button span,.burger-button::after {
+      background-color: #2A4C4A;
+  }
