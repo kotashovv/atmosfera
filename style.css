@@ -661,7 +661,7 @@ body.lock {
   right: 0;
   bottom: 0;
   background-color: black;
-  outline: 2px solid #e79d2f;
+  border: 2px solid #e79d2f;
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 34px;
@@ -672,8 +672,8 @@ body.lock {
   content: "";
   height: 28px;
   width: 28px;
-  left: 4px;
-  bottom: 4px;
+  left: 2px;
+  bottom: 1px;
   background-color: #212121;
   -webkit-transition: .4s;
   transition: .4s;
@@ -687,7 +687,7 @@ body.lock {
 }
 
 .lightbox input:checked + .toggle {
-  outline: 2px solid #c4c4c4;
+  border: 2px solid #c4c4c4;
   background-color: #fff;
 }
 
