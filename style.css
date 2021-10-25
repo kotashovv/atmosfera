@@ -2402,6 +2402,12 @@ body.lock {
   fill: #FF9D07;
 }
 
+@media (max-width: 1023px) {
+  .popup-close-btn {
+    top: 40px;
+  }
+}
+
 .popup__login {
   position: fixed;
   top: 50%;
@@ -2641,6 +2647,12 @@ body.lock {
 .popup__slider.active {
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 1023px) {
+  .popup__slider {
+    margin: 20px 0;
+  }
 }
 
 .popup-slider__slide {
